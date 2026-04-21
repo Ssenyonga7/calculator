@@ -1,0 +1,22 @@
+{
+    "name": "calculator/app",
+    "description": "A comprehensive calculator application with PHP and JavaScript implementations",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Calculator Team"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Calculator\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php test_calculator.php"
+    }
+}
